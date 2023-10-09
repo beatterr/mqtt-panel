@@ -11,20 +11,7 @@ observing various states.
 
 ![screenshot](screenshot-mobile.png)
 
-What to see `mqtt-panel` in action -> http://youtu.be/Qb0UJa9kf2g
 
-The web page is using [bootstrap](http://getbootstrap.com/) with
-[jQuery](http://jquery.com/).
-
-## Prerequisites/Installation
-
-### Get the files
-
-Clone the `mqtt-panel` [repository](https://github.com/fabaff/mqtt-panel)
-
-```bash
-$ git clone git@github.com:fabaff/mqtt-panel.git
-```
 
 ### Dependencies
 
@@ -76,13 +63,4 @@ To check if the messages are are ok, subscribe to the topic **home/#** with
 $ mosquitto_sub -V mqttv311 -h localhost -d -t home/#
 ```
 
-## Credits
 
-`mqtt-panel` was inspired by the ideas of:
-
-- [mqtt-svg-dash](https://github.com/jpmens/mqtt-svg-dash) by [Jan-Piet Mens](http://jpmens.net/)
-- [Robert Hekkers](http://blog.hekkers.net/2012/10/13/realtime-data-with-mqtt-node-js-mqtt-js-and-socket-io/)
-
-## License
-
-`mqtt-panel` licensed under MIT, for more details check LICENSE.
